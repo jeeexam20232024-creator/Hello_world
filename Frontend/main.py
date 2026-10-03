@@ -3,10 +3,13 @@ import pandas as pd
 import numpy as np
 import altair as alt
 import plotly.express as pt
-st.header("Hii There, What's UP!!")
-st.write('Hello, *World!* :sunglasses:')
+import streamlit as st
 
-air=st.selectbox(
-    "What is your Favourite colour?",
-    ("red","green","blue")
-)
+st.header('st.checkbox')
+
+st.write ('What would you like to order?')
+
+st.checkbox('Ice cream')
+st.checkbox('Coffee')
+st.checkbox('Cola')
+
